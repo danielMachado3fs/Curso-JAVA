@@ -1,0 +1,16 @@
+package fundamentos;
+
+public class DesafioConverçãoTemperatura {
+	public static void main(String[] args) {
+		final int ajuste = 32;
+		final double fator = 5/9.0;
+		double F,C;		
+		
+		//Conversao da temperatura
+		F = 45;
+		C = (F - ajuste) * fator;
+		
+		
+	}
+
+}
