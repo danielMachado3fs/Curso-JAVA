@@ -20,7 +20,7 @@ public class DesafioConversao {
 		
 		double soma = v1 + v2 + v3;
 		
-		System.out.println(" O valor total é: " + soma + "\n E a média dos valores é: " + soma/3);
+		System.out.println("O valor total é: " + soma + "\n E a média dos valores é: " + soma/3);
 	}
 
 }
