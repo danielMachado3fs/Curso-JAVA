@@ -6,6 +6,7 @@ public class AtalhosEclipse {
 	 * DUPLICAR UMA LINHA: Ctrl + Alt + up ou down
 	 * MOVER UMA LINHA DE CÓDIGO: Alt + up ou down
 	 * MAXIMIZAR/DIMINUIR A TELA DE CÓDIGO: Ctrl + M
+	 * ABRIR SUJESTÕES PARA COMPLETAR CÓDIGO: Ctrl + Espaço
 	 * 
 	 */
 

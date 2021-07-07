@@ -1,0 +1,27 @@
+package fundamentos;
+
+public class Wrappers {
+	
+	public static void main(String[] args) {
+		//Os WRAPPERS são as versões objetos dos tipos primitivos
+		//Eles possibilitam a utilização de operações com a notação "."
+		
+		//Na maioria, as classes se diferenciam dos tipos primitivos pela primeira letra que é maiúscula
+		
+		Byte b = 100; //primitivo byte
+		System.out.println(b.byteValue()); //pega exatamente o valor do byte que está na classe
+		
+		Short s = 1000; //short
+		System.out.println(s.toString()); //transforma em string
+		
+		Integer i = 10000; //int
+		System.out.println(i.doubleValue()); //transforma para double
+		
+		Long l = 100000L; //long
+		Long k = 54000L;
+		System.out.println(l.equals(k)); //compara o valor de l com valor de i
+		
+		
+	}
+
+}
