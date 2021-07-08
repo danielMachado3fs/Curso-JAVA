@@ -104,16 +104,11 @@ public class Operadores {
 		
 		//OPERADORES TERNÁRIOS
 		
+		//Exemplo = status do aluno
+		
 		double nota = 7.1;
 		String resultado = nota >= 7 ? "aprovado" : "reprovado";
 		System.out.println("O aluno está "+ resultado);
-		
-		/*
-		 * Utiliza-se os simbolos ? e :
-		 * Sintaxe:
-		 * operação booleana ? resultado1 caso true : resultado2 caso false;
-		 */
-		
 
 		
 		

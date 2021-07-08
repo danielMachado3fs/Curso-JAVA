@@ -24,10 +24,8 @@ public class NotacaoPonto {
 		//COMPARAÇÃO DE STRINGS
 		
 		String b = "23";
-		String c = "   23   ";
-		System.out.println(b.equals("23")); //Para uma correta comparação, utiliza-se a função "equals()"
-		System.out.println(b.equals(c.trim())); //A função "trim()" remove os espaços em branco da String.
-		
+		System.out.println(b == "23");
+		System.out.println(b.equals("23"));
 		
 		//É possivel utilizar as funções em uma mesma linha
 		

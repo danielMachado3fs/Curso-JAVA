@@ -102,17 +102,6 @@ public class Operadores {
 		 * ou seja, se ouver uma comparação logo após, o valor ja vai estrar incrementado.
 		 */
 		
-		//OPERADORES TERNÁRIOS
-		
-		double nota = 7.1;
-		String resultado = nota >= 7 ? "aprovado" : "reprovado";
-		System.out.println("O aluno está "+ resultado);
-		
-		/*
-		 * Utiliza-se os simbolos ? e :
-		 * Sintaxe:
-		 * operação booleana ? resultado1 caso true : resultado2 caso false;
-		 */
 		
 
 		
