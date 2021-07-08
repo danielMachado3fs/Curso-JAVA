@@ -6,6 +6,8 @@ public class InferenciaDeTipos {
 		
 		var a = "texto"; //Java inferiu que a variavel é do tipo String
 		var b = 123; //Java inferiu que a variavel é do tipo int
+		System.out.println(a);
+		System.out.println(b);
 		
 		/*
 		 * Quando se declara uma variável utilizando "var", ela deve ser

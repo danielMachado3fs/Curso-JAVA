@@ -29,9 +29,11 @@ public class Wrappers {
 		System.out.println(f.hashCode()); //pega o hashcode referente ao valor da variável.
 		
 		Double d = 1254.2; //double
+		System.out.println(d.toString()); //converte para string
 		
 		Character c = '#'; //char
 		System.out.println(c.toString()); //converte para string
+		
 		
 		
 	}
