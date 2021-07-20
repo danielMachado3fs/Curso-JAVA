@@ -1,0 +1,16 @@
+package classes_metodos.exemplos_classe;
+
+public class ProdutoTeste {
+	
+	public static void main(String[] args) {
+		
+		//INSTANCIANDO UM PRODUTO
+		Produto p1 = new Produto(); 
+		var p2 = new Produto();
+		
+		//A classe produto definiu o tipo das instancias p1 e p2, o que irá mudar será os dados
+		//de cada instancia.
+		
+	}
+
+}

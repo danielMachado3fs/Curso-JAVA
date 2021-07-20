@@ -1,0 +1,17 @@
+package classes_metodos.exemplos_classe;
+
+public class Produto {
+	
+	String nome;
+	double valor;
+	double desconto;
+	
+	double PrecoComDesconto() {
+		
+		double preçoDescontado = valor * (1 - desconto);
+		
+		return preçoDescontado;
+		
+	}
+
+}
