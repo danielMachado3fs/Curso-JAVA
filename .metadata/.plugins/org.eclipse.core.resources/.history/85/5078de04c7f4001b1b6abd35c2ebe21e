@@ -1,0 +1,31 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package exercicios;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author daniel.maciel
+ */
+public class N14Produto {
+    
+    public static void main(String[] args){
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("Digite o codigo do produto:");
+        int id = teclado.nextInt();
+        switch(id){
+            case 17: System.out.println("Caderno");
+            break;
+            case 19: System.out.println("Lápis");
+            break;
+            case 21: System.out.println("Borracha");
+            break;
+            default: System.out.println("Produto não cadastrado!");
+        }
+    }
+    
+}
