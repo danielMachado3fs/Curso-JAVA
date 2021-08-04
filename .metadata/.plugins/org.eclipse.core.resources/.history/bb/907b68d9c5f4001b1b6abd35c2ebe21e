@@ -3,7 +3,6 @@ package classes_metodos.desafios;
 public class PrimeiroTrauma {
 	 
 	int a = 3; //não pode mexer
-	static int b = 5;
 	//DESAFIO: conseguir acessar a variável dentro do método main
 	
 	
@@ -18,7 +17,5 @@ public class PrimeiroTrauma {
 		
 		PrimeiroTrauma p = new PrimeiroTrauma(); //Instância "p" criada
 		System.out.println(p.a); //valor da variável "a" acessado a partir da instância criada.
-		System.out.println(b); //a variavel "b" pode ser acessada diretamente pois ela é uma
-		//variável da classe(static).
 	}
 }
