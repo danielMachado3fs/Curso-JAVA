@@ -1,0 +1,20 @@
+package classes_metodos.exemplos_classe;
+
+public class ValorVsReferencia {
+	
+	public static void main(String[] args) {
+		
+		double a = 2;
+		double b = a; //atribuição por valor (o valor foi copiado na memória)
+		
+		System.out.println(a + " " + b);
+		
+		Data a1 = new Data(01,02,2021);
+		Data b1 = a1; //atribuição por referencia (a referencia dos dois objetos apontam para
+		// os mesmo dados, se mudar o valor em a1, muda o valor em b1)
+		
+		System.out.println(a1 + " " + b1);
+		
+	}
+
+}

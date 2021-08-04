@@ -1,0 +1,15 @@
+package aula1.exercicios;
+
+import java.util.Scanner;
+
+public class N14BonusSalario {
+	
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		System.out.print("Informe o salario: ");
+		double salario = teclado.nextDouble();		
+		double bonus = salario * 0.2;
+		System.out.printf("O bonus a ser recebido é de R$ %d",bonus);
+	}
+
+}

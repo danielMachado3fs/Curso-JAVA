@@ -1,0 +1,18 @@
+package aula1.exercicios;
+
+import javax.swing.JOptionPane;
+
+public class N8NomePessoaGUI {
+	
+	public static void main(String[] args) {
+		String sx = JOptionPane.showInputDialog("Informe um número");
+		double x = Double.parseDouble(sx);
+		
+		if(x > 0) {
+			JOptionPane.showMessageDialog(null, "Número Positivo");
+		}else {
+			JOptionPane.showMessageDialog(null, "Número Negativo");
+		}
+	}
+
+}

@@ -7,7 +7,7 @@ public class MembrosDeClasseVsInstância {
 	 * 
 	 * Membros podem ser definidos como Métodos e Atributos.
 	 * 
-	 * Os membros de classe são aqules que pertencem a classe, ou seja, todas as instâncias(objetos)
+	 * Os membros de classe são aqueles que pertencem a classe, ou seja, todas as instâncias(objetos)
 	 * criadas pela classe, o atributo(membro) que pertence aquela classe, terá o mesmo valor em todas
 	 * as instâncias.
 	 * As intâncias poderam acessar o valor mas será somente uma cópia, não poderá mudálo.

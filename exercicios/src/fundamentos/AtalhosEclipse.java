@@ -8,6 +8,8 @@ public class AtalhosEclipse {
 	 * MAXIMIZAR/DIMINUIR A TELA DE CÓDIGO: Ctrl + M
 	 * ABRIR SUJESTÕES PARA COMPLETAR CÓDIGO: Ctrl + Espaço
 	 * EDITAR VÁRIAS LINHA: Alt + shift + A
+	 * 
+	 * GERAR ATALHOS PARA CÓDIGOS: PREFERENCES > JAVA > EDITOR > TEMPLATES
 	 */
 
 }

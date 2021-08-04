@@ -22,7 +22,7 @@ public class ProdutoTeste {
 		//alterando o desconto de todas as instâncias que nesse caso são os produtos.
 			
 		p1.desconto = 0.5; //Membro da classe sendo acessado pela intância. O que não é recomento
-		//pois gera a impressão que so está sendo alterado o valor de desconto para essa 
+		//pois gera a impressão que so está sendo alterando o valor de desconto para essa 
 		//intancia, o que na verdade, todas as instancias criadas a partir dessa linha
 		//considerarão esse valor de desconto.
 			

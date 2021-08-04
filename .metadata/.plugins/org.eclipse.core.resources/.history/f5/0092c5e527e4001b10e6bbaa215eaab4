@@ -1,9 +1,0 @@
-package exemplos_classes.copy;
-
-public class Produto {
-	
-	String nome;
-	double preco;
-	double desconto;
-
-}

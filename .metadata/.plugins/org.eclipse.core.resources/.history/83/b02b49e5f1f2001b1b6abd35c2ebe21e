@@ -1,0 +1,15 @@
+package aula1.exercicios;
+
+import java.util.Scanner;
+
+public class N14BonusSalario {
+	
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		int n1 = 25;
+		int n2 = 43;
+		System.out.println("os numeros sao" + n1 + "e" + n2);
+		
+	}
+
+}
