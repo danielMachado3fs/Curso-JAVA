@@ -3,4 +3,7 @@
     <fullyQualifiedTypeName name="sun.jvm.hotspot.interpreter.BytecodeJsrW"/>
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="classes_metodos.desafios.PrimeiroTrauma"/>
+    <fullyQualifiedTypeName name="classes_metodos.exemplos_classe.Data"/>
+    <fullyQualifiedTypeName name="classes_metodos.desafios.desafio2.Pessoa"/>
 </qualifiedTypeNameHistroy>

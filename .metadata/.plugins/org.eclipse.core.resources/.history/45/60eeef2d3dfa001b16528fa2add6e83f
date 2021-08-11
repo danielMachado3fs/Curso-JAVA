@@ -1,0 +1,20 @@
+package classes_metodos.desafios.desafio2;
+
+public class Pessoa {
+	
+	String nome;
+	double peso;
+	
+	Pessoa(String nome, double peso){
+		this.nome = nome;
+		this.peso = peso;
+	}
+	
+	Pessoa(){}
+	
+	double comer(double pesoComida) {
+		double pesoFinal = peso + pesoComida;
+		return pesoFinal;
+		
+	}
+}

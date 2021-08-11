@@ -8,6 +8,15 @@ public class AtribuicaoValorVsReferencias {
 	 * Ao atribuir valor a uma variável do tipo primitiva, é separado um espaço de memória
 	 * como o rótulo igual o nome da variável e dentro desse espaço é armazenado o VALOR.
 	 * 
+	 * //OBS: 
+		//As váriáveis de instância(variáveis de classe) caso n seja definido
+		//nenhum valor para elas, elas sãi inicializadas com o valor PADRÂO
+		//de acordo com o tipo.
+		
+		//No caso das constantes, elas não recebem um valor padrõa, ou seja,
+		//o valor dela deve ser explicitamente definido antes da criação do objeto(antes do cod
+		//do objeto) ou no mais tartar, dentro do construtor.
+	 * 
 	 * <<Atribuir valores a um OBJETO>>
 	 * 
 	 * Ao atribuir valores para um objeto, é separado um espaço na memória com o rótulo

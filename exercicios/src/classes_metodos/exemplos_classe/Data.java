@@ -9,7 +9,7 @@ public class Data {
 		}
 		
 		Data(int dia, int Cmes, int Cano){
-			this.dia = dia; // o "this" é utilizado para acessár a variável de um instancia
+			this.dia = dia; // o "this" é utilizado para acessár a variável de uma instancia
 			//ele é muito utilizado quando á conflito de nomes, ou seja, 
 			//nome da variável da instancia
 			//igual o nome da variável de argumento do método.
@@ -22,11 +22,14 @@ public class Data {
 		//pela notação ponto.
 		//EXEMPLO: d1.dataformatada(); >> método sendo acessado a partir da instancia d1.
 		
-		Data(){
-			// dia = 1;
-			// mes = 1;
-			// ano = 1970;
-			this(1,1,1970); //"this" sendo utilizado como um método
+		public Data(){		//A palavra public o torna visível às outras classes.
+			//dia = 1;
+			//mes = 1;
+			//ano = 1970;
+			
+			this(1,1,1970); 
+			
+			//"this" sendo utilizado como um método
 			//só é possivel utilizá-lo assim dentro de um construtor, ou seja,
 			//chamando um contrutor a partir de outro construtor.
 		}
