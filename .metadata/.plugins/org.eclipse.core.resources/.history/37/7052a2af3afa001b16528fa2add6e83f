@@ -1,9 +1,0 @@
-package classes_metodos.desafios.desafio2;
-
-public class Jantar {
-	
-	public static void main(String[] args) {
-		Comida arroz = new Comida(Arroz, 0.2);
-	}
-
-}

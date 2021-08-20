@@ -10,6 +10,11 @@ public class AtalhosEclipse {
 	 * EDITAR VÁRIAS LINHA: Alt + shift + A
 	 * 
 	 * GERAR ATALHOS PARA CÓDIGOS: PREFERENCES > JAVA > EDITOR > TEMPLATES
+	 * 
+	 * Workspace: pasta criada para salvar as preferências configuradas no eclipse e como padrão mas não de forma obrigatória, salvar os projetos criados.
+
+	 * Criei uma pasta chamada curso-java para ser meu workspace do curso.
+
 	 */
 
 }
